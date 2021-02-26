@@ -1,0 +1,9 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+includedir=include
+
+Name: clog
+Description: Log Macros and Output Management in C
+Version: @VERSION@
+
+Requires:
+clog: -I${includedir}
